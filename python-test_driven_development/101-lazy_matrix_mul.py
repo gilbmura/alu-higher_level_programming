@@ -13,6 +13,5 @@ def lazy_matrix_mul(m_a, m_b):
     :returns: The results of the matrix multiplication
     :rtype: list of list of int/floats
     """
-    
-    return(numpy.matmul(m_a, m_b))
+    return numpy.matmul(m_a, m_b)
 
